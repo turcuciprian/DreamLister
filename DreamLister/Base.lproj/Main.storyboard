@@ -90,6 +90,9 @@
                                                         <constraint firstAttribute="trailing" secondItem="B4e-M2-XjU" secondAttribute="trailing" constant="8" id="gwR-CD-SU3"/>
                                                         <constraint firstItem="3gJ-T0-WqG" firstAttribute="top" secondItem="H1i-ta-nFJ" secondAttribute="topMargin" constant="8" id="u4J-k8-Y18"/>
                                                     </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
                                                 </view>
                                             </subviews>
                                         </tableViewCellContentView>
