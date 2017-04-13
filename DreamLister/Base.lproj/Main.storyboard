@@ -28,8 +28,9 @@
                                     <constraint firstAttribute="height" constant="28" id="rZk-7n-E5q"/>
                                 </constraints>
                                 <segments>
-                                    <segment title="First"/>
-                                    <segment title="Second"/>
+                                    <segment title="Newest"/>
+                                    <segment title="Price"/>
+                                    <segment title="Title"/>
                                 </segments>
                             </segmentedControl>
                         </subviews>
