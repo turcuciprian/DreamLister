@@ -73,14 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				7D41984E1E9F587000E3A4F3 /* Model */,
-				7D41983E1E9F586B00E3A4F3 /* Item+CoreDataClass.swift */,
-				7D41983F1E9F586B00E3A4F3 /* Item+CoreDataProperties.swift */,
-				7D4198401E9F586B00E3A4F3 /* ItemType+CoreDataClass.swift */,
-				7D4198411E9F586B00E3A4F3 /* ItemType+CoreDataProperties.swift */,
-				7D4198421E9F586B00E3A4F3 /* Image+CoreDataClass.swift */,
-				7D4198431E9F586B00E3A4F3 /* Image+CoreDataProperties.swift */,
-				7D4198441E9F586B00E3A4F3 /* Store+CoreDataClass.swift */,
-				7D4198451E9F586B00E3A4F3 /* Store+CoreDataProperties.swift */,
 				7D4198291E9F4F9700E3A4F3 /* AppDelegate.swift */,
 				7D41982B1E9F4F9700E3A4F3 /* ViewController.swift */,
 				7D41982D1E9F4F9700E3A4F3 /* Main.storyboard */,
@@ -95,6 +87,10 @@
 		7D41984E1E9F587000E3A4F3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7D41983E1E9F586B00E3A4F3 /* Item+CoreDataClass.swift */,
+				7D4198401E9F586B00E3A4F3 /* ItemType+CoreDataClass.swift */,
+				7D4198421E9F586B00E3A4F3 /* Image+CoreDataClass.swift */,
+				7D4198441E9F586B00E3A4F3 /* Store+CoreDataClass.swift */,
 				7D41984F1E9F587700E3A4F3 /* Generated */,
 			);
 			name = Model;
@@ -103,6 +99,10 @@
 		7D41984F1E9F587700E3A4F3 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
+				7D41983F1E9F586B00E3A4F3 /* Item+CoreDataProperties.swift */,
+				7D4198411E9F586B00E3A4F3 /* ItemType+CoreDataProperties.swift */,
+				7D4198431E9F586B00E3A4F3 /* Image+CoreDataProperties.swift */,
+				7D4198451E9F586B00E3A4F3 /* Store+CoreDataProperties.swift */,
 			);
 			name = Generated;
 			sourceTree = "<group>";
