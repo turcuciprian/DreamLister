@@ -21,6 +21,7 @@
 		7D804C231EA018620080D5E1 /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D804C1B1EA018620080D5E1 /* ItemType+CoreDataProperties.swift */; };
 		7D804C241EA018620080D5E1 /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D804C1C1EA018620080D5E1 /* Image+CoreDataClass.swift */; };
 		7D804C251EA018620080D5E1 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D804C1D1EA018620080D5E1 /* Image+CoreDataProperties.swift */; };
+		7D804C281EA030BB0080D5E1 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D804C271EA030BB0080D5E1 /* MaterialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		7D804C1B1EA018620080D5E1 /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7D804C1C1EA018620080D5E1 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
 		7D804C1D1EA018620080D5E1 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7D804C271EA030BB0080D5E1 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		7D4198281E9F4F9700E3A4F3 /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
+				7D804C261EA030840080D5E1 /* View */,
 				7D41984E1E9F587000E3A4F3 /* Model */,
 				7D4198291E9F4F9700E3A4F3 /* AppDelegate.swift */,
 				7D41982B1E9F4F9700E3A4F3 /* mainVC.swift */,
@@ -105,6 +108,14 @@
 				7D804C1D1EA018620080D5E1 /* Image+CoreDataProperties.swift */,
 			);
 			name = Generated;
+			sourceTree = "<group>";
+		};
+		7D804C261EA030840080D5E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7D804C271EA030BB0080D5E1 /* MaterialView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 				7D41982C1E9F4F9700E3A4F3 /* mainVC.swift in Sources */,
 				7D804C201EA018620080D5E1 /* Store+CoreDataClass.swift in Sources */,
 				7D804C231EA018620080D5E1 /* ItemType+CoreDataProperties.swift in Sources */,
+				7D804C281EA030BB0080D5E1 /* MaterialView.swift in Sources */,
 				7D41982A1E9F4F9700E3A4F3 /* AppDelegate.swift in Sources */,
 				7D804C1E1EA018620080D5E1 /* Item+CoreDataClass.swift in Sources */,
 				7D804C221EA018620080D5E1 /* ItemType+CoreDataClass.swift in Sources */,
