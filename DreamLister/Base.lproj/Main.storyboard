@@ -47,7 +47,19 @@
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H1i-ta-nFJ">
                                                     <rect key="frame" x="8" y="8" width="359" height="117.5"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y4e-Em-oEW">
+                                                            <rect key="frame" x="8" y="9" width="100" height="100"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="100" id="A0p-bR-HnI"/>
+                                                                <constraint firstAttribute="height" constant="100" id="utO-jO-q5L"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                    </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstItem="Y4e-Em-oEW" firstAttribute="centerY" secondItem="H1i-ta-nFJ" secondAttribute="centerY" id="Sve-Mh-dW0"/>
+                                                    </constraints>
                                                 </view>
                                             </subviews>
                                             <constraints>
