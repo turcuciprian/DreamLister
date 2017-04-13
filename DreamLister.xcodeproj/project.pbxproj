@@ -22,6 +22,7 @@
 		7D804C241EA018620080D5E1 /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D804C1C1EA018620080D5E1 /* Image+CoreDataClass.swift */; };
 		7D804C251EA018620080D5E1 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D804C1D1EA018620080D5E1 /* Image+CoreDataProperties.swift */; };
 		7D804C281EA030BB0080D5E1 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D804C271EA030BB0080D5E1 /* MaterialView.swift */; };
+		7D804C2A1EA035A00080D5E1 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D804C291EA035A00080D5E1 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		7D804C1C1EA018620080D5E1 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
 		7D804C1D1EA018620080D5E1 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7D804C271EA030BB0080D5E1 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		7D804C291EA035A00080D5E1 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				7D804C271EA030BB0080D5E1 /* MaterialView.swift */,
+				7D804C291EA035A00080D5E1 /* ItemCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D804C2A1EA035A00080D5E1 /* ItemCell.swift in Sources */,
 				7D41982C1E9F4F9700E3A4F3 /* mainVC.swift in Sources */,
 				7D804C201EA018620080D5E1 /* Store+CoreDataClass.swift in Sources */,
 				7D804C231EA018620080D5E1 /* ItemType+CoreDataProperties.swift in Sources */,
