@@ -34,9 +34,17 @@
                                 </segments>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </segmentedControl>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KOU-Jj-csY">
+                                <rect key="frame" x="0.0" y="132" width="375" height="535"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="KOU-Jj-csY" secondAttribute="trailing" id="7c7-iI-PUY"/>
+                            <constraint firstItem="KOU-Jj-csY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="JvH-KH-5pK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KOU-Jj-csY" secondAttribute="bottom" id="NYM-qh-5hf"/>
+                            <constraint firstItem="KOU-Jj-csY" firstAttribute="top" secondItem="xFY-rW-1l2" secondAttribute="bottom" constant="20" id="Oj1-UI-8Ki"/>
                             <constraint firstItem="xFY-rW-1l2" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-20" id="SI8-Nh-Rwp"/>
                             <constraint firstItem="xFY-rW-1l2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="dk0-4m-OPe"/>
                             <constraint firstItem="xFY-rW-1l2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="uwN-wA-RDz"/>
