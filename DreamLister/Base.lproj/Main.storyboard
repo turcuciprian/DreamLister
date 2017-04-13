@@ -35,9 +35,12 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YMP-hA-Ncm" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jYv-sy-YgI">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="jYv-sy-YgI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
