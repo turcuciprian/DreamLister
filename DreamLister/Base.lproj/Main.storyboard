@@ -123,6 +123,10 @@
                             <color key="tintColor" red="0.55082837979999999" green="0.55904355439999998" blue="0.55924809639999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="segment" destination="xFY-rW-1l2" id="otI-Pa-mWJ"/>
+                        <outlet property="tableView" destination="KOU-Jj-csY" id="szO-1q-2Id"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -133,7 +137,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YMP-hA-Ncm" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="jYv-sy-YgI">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jYv-sy-YgI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
