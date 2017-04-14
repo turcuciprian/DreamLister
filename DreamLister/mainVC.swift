@@ -14,7 +14,7 @@ class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource,NSFet
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var segment: UISegmentedControl!
     
-    var fetchedResultsController: NSFetchedResultsController<Item>!
+    var controller: NSFetchedResultsController<Item>!
     
     
 
@@ -29,15 +29,7 @@ class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource,NSFet
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
-    }
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
-    }
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 0
-    }
+    
     func attemptFetch(){
         let fetchRequest: NSFetchRequest<Item> = Item.fetchRequest()
         let dateSort = NSSortDescriptor(key: "creator", ascending: false)
@@ -54,6 +46,21 @@ class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource,NSFet
         }
         
     }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        return UITableViewCell()
+    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if let sections = controller.sections {
+            let sectionInfo = sections[section]
+            return sectionInfo.numberOfObjects
+        }
+    }
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 0
+    }
+    
+    
     func controllerWillChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
         tableView.beginUpdates()
     }
