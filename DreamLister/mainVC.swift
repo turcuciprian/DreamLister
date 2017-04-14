@@ -48,8 +48,14 @@ class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource,NSFet
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         return UITableViewCell()
+        
     }
+    func configureCell(cell: ItemCell, indexPath: NSIndexPath){
+        //update cell
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if let sections = self.controller.sections {
             let sectionInfo = sections[section]
