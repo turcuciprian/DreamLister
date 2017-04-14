@@ -75,7 +75,10 @@ class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource,NSFet
             }
             break
         case .update:
-            if let indexPath
+            if let indexPath = indexPath{
+                let cell = tableView.cellForRow(at: <#T##IndexPath#>) as! ItemCell
+                //update the cell data
+            }
         default:
             <#code#>
         }
