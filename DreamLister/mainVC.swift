@@ -50,6 +50,7 @@ class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource,NSFet
 
         } catch {
             let error = error as NSError
+            print("\(error)")
         }
         
     }
