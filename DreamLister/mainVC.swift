@@ -65,7 +65,9 @@ class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource,NSFet
     func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>, didChange anObject: Any, at indexPath: IndexPath?, for type: NSFetchedResultsChangeType, newIndexPath: IndexPath?) {
         switch type {
         case .insert:
-            <#code#>
+            if let indexPath = newIndexPath{
+                tableView.insertRows(at: [indexPath], with: .fade)
+            }
         default:
             <#code#>
         }
