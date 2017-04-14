@@ -45,6 +45,13 @@ class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource,NSFet
         
         let controller = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: context, sectionNameKeyPath: nil, cacheName: nil)
         
+        do{
+            try self.controller.performFetch()
+
+        } catch {
+            let error = error as NSError
+        }
+        
     }
 }
 
