@@ -14,7 +14,7 @@ class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource,NSFet
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var segment: UISegmentedControl!
     
-    var fetchedResultsController: NSFetchedResultsController<Item>
+    var fetchedResultsController: NSFetchedResultsController<Item>!
     
     
 
