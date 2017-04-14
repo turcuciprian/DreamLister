@@ -51,10 +51,11 @@ class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource,NSFet
         return UITableViewCell()
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if let sections = controller.sections {
+        if let sections = self.controller.sections {
             let sectionInfo = sections[section]
             return sectionInfo.numberOfObjects
         }
+        return 0
     }
     func numberOfSections(in tableView: UITableView) -> Int {
         return 0
