@@ -38,5 +38,8 @@ class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource,NSFet
     func numberOfSections(in tableView: UITableView) -> Int {
         return 0
     }
+    func attemptFetch(){
+        let fetchRequest: NSFetchRequest<Item> = Item.fetchRequest()
+    }
 }
 
