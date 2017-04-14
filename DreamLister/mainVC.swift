@@ -58,6 +58,9 @@ class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource,NSFet
         return 0
     }
     func numberOfSections(in tableView: UITableView) -> Int {
+        if let sections = controller.sections{
+            return sections.count
+        }
         return 0
     }
     
