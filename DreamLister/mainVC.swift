@@ -55,7 +55,7 @@ class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource,NSFet
         
     }
     func controllerWillChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
-//        asd
+        tableView.beginUpdates()
     }
 }
 
