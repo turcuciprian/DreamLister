@@ -71,16 +71,26 @@ class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource,NSFet
             break
         case .delete:
             if let indexPath = indexPath{
-                tableView.deleteRows(at: <#T##[IndexPath]#>, with: .fade)
+                tableView.deleteRows(at: [indexPath], with: .fade)
             }
             break
         case .update:
             if let indexPath = indexPath{
-                let cell = tableView.cellForRow(at: <#T##IndexPath#>) as! ItemCell
+                let cell = tableView.cellForRow(at: indexPath) as! ItemCell
                 //update the cell data
             }
+            break
+        case .move:
+            if let indexPath = indexPath{
+                tableView.deleteRows(at: [indexPath], with: .fade)
+            }
+            if let indexPath = newIndexPath{
+                tableView.insertRows(at: [indexPath], with: .fade)
+            }
+            break
         default:
-            <#code#>
+//            nothing yet
+            break
         }
     }
 }
