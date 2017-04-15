@@ -96,7 +96,6 @@
                                                 </view>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="details" destination="dta-Sh-RNe" id="Jbg-I8-tRw"/>
                                             <outlet property="price" destination="B4e-M2-XjU" id="nGD-Of-lLL"/>

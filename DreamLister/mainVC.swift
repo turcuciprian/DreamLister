@@ -39,7 +39,7 @@ class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource,NSFet
     
     func attemptFetch(){
         let fetchRequest: NSFetchRequest<Item> = Item.fetchRequest()
-        let dateSort = NSSortDescriptor(key: "creator", ascending: false)
+        let dateSort = NSSortDescriptor(key: "created", ascending: false)
         fetchRequest.sortDescriptors = [dateSort]
         
         let controller = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: context, sectionNameKeyPath: nil, cacheName: nil)
